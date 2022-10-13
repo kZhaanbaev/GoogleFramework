@@ -27,6 +27,10 @@ public class HomeTest extends BaseTest {
     }
 
 
+    @Test(testName = "Alexandra")
+    public void testAlexandra() {
+        System.out.println("We will get Git one day!");
+    }
 
 @Test(testName = "US002 - Nurik")
 public void test0002(){
@@ -38,11 +42,16 @@ public void test0002(){
         page.assertEquals(driver.getTitle(), "Google");
     }
 
+
+    @Test(testName = "Google title test")
+    public void burkhon(){
+        System.out.println("Burkhon");
+    }
+
     @Test(testName = "Agatha TestName")
     public void test02(){
         System.out.println("Agatha's message here");
     }
-
 }
 
 
