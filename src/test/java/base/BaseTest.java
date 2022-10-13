@@ -52,7 +52,7 @@ public class BaseTest {
                 driver = new ChromeDriver();
                 break;
             case "firefox":
-                System.setProperty("webdriver.gecko.driver", "/Users/kuba/Projects/TLA/General/libs/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "C:\\Users\\Ketarin\\Desktop\\Selenium\\libs\\geckodriver");
                 driver = new FirefoxDriver();
                 break;
             default:
