@@ -26,10 +26,16 @@ public class HomeTest extends BaseTest {
         page.assertEquals(driver.getTitle(), "Google");
     }
 
+
     @Test(testName = "Alexandra")
     public void testAlexandra() {
         System.out.println("We will get Git one day!");
     }
+
+@Test(testName = "US002 - Nurik")
+public void test0002(){
+    System.out.println("Google");
+}
 
     @Test(testName = "Google title test")
     public void test01(){
