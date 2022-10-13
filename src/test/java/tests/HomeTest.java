@@ -43,6 +43,12 @@ public void test0002(){
         System.out.println("Agatha's message here");
     }
 
+    @Test(testName = "Sugar")
+    public void test11(){
+
+        System.out.println("Sugar here");
+    }
+
 }
 
 

@@ -9,6 +9,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import utils.ConfigReader;
+import utils.ConfigReader;
 import utils.ExtentManager;
 
 import java.lang.reflect.Method;
