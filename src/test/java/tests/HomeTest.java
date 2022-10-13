@@ -12,7 +12,18 @@ public class HomeTest extends BaseTest {
 
     @BeforeMethod
     public void setUp(){
+
         page = new HomePage(driver);
+
+    }
+
+    @Test(testName = "Oksana")
+    public void testOksana(){
+        System.out.println("Hi from Oksana");
+    }
+    @Test(testName = "Ketarin")
+    public void test01(){
+        page.assertEquals(driver.getTitle(), "Google");
     }
 
     @Test(testName = "Alexandra")
@@ -25,8 +36,16 @@ public class HomeTest extends BaseTest {
         page.assertEquals(driver.getTitle(), "Google");
     }
 
+
     @Test(testName = "Google title test")
     public void burkhon(){
         System.out.println("Burkhon");
     }
+
+    @Test(testName = "Agatha TestName")
+    public void test02(){
+        System.out.println("Agatha's message here");
+    }
 }
+
+
