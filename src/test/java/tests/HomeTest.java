@@ -1,6 +1,7 @@
 package tests;
 
 import base.BaseTest;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.HomePage;
@@ -13,8 +14,16 @@ public class HomeTest extends BaseTest {
     public void setUp(){
         page = new HomePage(driver);
     }
+
        @Test
     public void aiana() {
            System.out.println("Hi");
        }
+
+
+    @Test(testName = "Google title test")
+    public void test01(){
+        page.assertEquals(driver.getTitle(), "Google");
+    }
+
 }
