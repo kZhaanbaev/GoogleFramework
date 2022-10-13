@@ -11,7 +11,11 @@ public class HomeTest extends BaseTest {
     HomePage page;
 
     @BeforeMethod
+
+    public void setUp() {
+
     public void setUp(){
+
 
         page = new HomePage(driver);
 
@@ -24,6 +28,17 @@ public class HomeTest extends BaseTest {
     @Test(testName = "Ketarin")
     public void test01(){
         page.assertEquals(driver.getTitle(), "Google");
+    }
+
+
+    @Test(testName = "Google title test")
+    public void test01() {
+        Assert.assertEquals(driver.getTitle(), "Google");
+    }
+        @Test(testName = "Erik")
+        public void test02() {
+            System.out.println("Hocus Pocus");
+        }
     }
 
     @Test(testName = "Google title test")
