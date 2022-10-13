@@ -13,6 +13,12 @@ public class HomeTest extends BaseTest {
     @BeforeMethod
     public void setUp(){
         page = new HomePage(driver);
+
+    }
+
+    @Test(testName = "Oksana")
+    public void testOksana(){
+        System.out.println("Hi from Oksana");
     }
 
     @Test(testName = "Google title test")
