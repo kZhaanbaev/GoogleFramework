@@ -25,3 +25,11 @@ public class HomeTest extends BaseTest {
             System.out.println("Hocus Pocus");
         }
     }
+
+    @Test(testName = "Google title test")
+    public void test01(){
+        page.assertEquals(driver.getTitle(), "Google");
+    }
+
+}
+
