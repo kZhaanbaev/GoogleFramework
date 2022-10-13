@@ -17,7 +17,13 @@ public class HomeTest extends BaseTest {
 
     @Test(testName = "Google title test")
     public void test01(){
+
         page.assertEquals(driver.getTitle(), "Google");
+    }
+
+    @Test(testName = "printing out my name")
+    public void test02() {
+        System.out.println("CHRIS");
     }
 
 }
